@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TambahMahasiswaActivity2">
+    tools:context=".TambahMahasiswaActivity"
+    android:background="@drawable/gradient_a">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,88 +19,107 @@
             android:layout_marginBottom="10dp"
             android:text="Mahasiswa Baru"
             android:textSize="25sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            style="@style/textView1"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="NIM"/>
+            android:text="NIM"
+            style="@style/textView1"/>
         <EditText
             android:id="@+id/nimEditText"
             android:layout_width="match_parent"
             android:inputType="number"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            style="@style/editText1"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nama"/>
+            android:text="Nama"
+            style="@style/textView1"/>
         <EditText
             android:id="@+id/namaEditText"
             android:layout_width="match_parent"
             android:inputType="textCapWords"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            style="@style/editText1"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Jenis Kelamin"/>
+            android:text="Jenis Kelamin"
+            style="@style/textView1"/>
         <Spinner
             android:id="@+id/JenisKelaminSpinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:entries="@array/jenisKelaminArray"/>
+            android:entries="@array/jenisKelaminArray"
+            style="@style/spinner1"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tempat Lahir"/>
+            android:text="Tempat Lahir"
+            style="@style/textView1"/>
         <EditText
             android:id="@+id/tempatLahirEditText"
             android:layout_width="match_parent"
             android:inputType="textCapWords"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            style="@style/editText1"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tanggal Lahir (yyyy-mm-dd)"/>
+            android:text="Tanggal Lahir (yyyy-mm-dd)"
+            style="@style/textView1"/>
         <EditText
             android:id="@+id/tanggalLahirEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="date"/>
+            android:inputType="date"
+            style="@style/editText1"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Alamat"/>
+            android:text="Alamat"
+            style="@style/textView1"/>
         <EditText
             android:id="@+id/alamatEditText"
             android:layout_width="match_parent"
             android:inputType="textCapSentences"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            style="@style/editText1"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Jurusan / Prodi"/>
+            android:text="Jurusan / Prodi"
+            style="@style/textView1"/>
         <Spinner
             android:id="@+id/jpSpinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:entries="@array/jpArray"/>
+            android:entries="@array/jpArray"
+            style="@style/spinner1"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="StatuS Pernikahan"/>
+            android:text="StatuS Pernikahan"
+            style="@style/textView1"/>
         <Spinner
             android:id="@+id/statusNikahSpinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:entries="@array/statusNikahArray"/>
+            android:entries="@array/statusNikahArray"
+            style="@style/spinner1"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tahun Masuk"/>
+            android:text="Tahun Masuk"
+            style="@style/textView1"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
-            android:id="@+id/tahunMasukEditText"/>
+            android:id="@+id/tahunMasukEditText"
+            style="@style/editText1"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

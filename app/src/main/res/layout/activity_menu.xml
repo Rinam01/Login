@@ -7,14 +7,26 @@
     tools:context=".MenuActivity"
     android:columnCount="1"
     android:background="@drawable/gradient_a">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Menu"
+        android:background="#9C27B0"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_columnWeight="1">
+    </TextView>
     <Button
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_columnWeight="1"
         android:background="@android:color/transparent"
-        android:drawableRight="@drawable/img_teenagers_128"
+        android:drawableRight="@drawable/img_dollar_128"
         android:textColor="#fff"
-        android:text="Master Pemakai">
+        android:text="Forex"
+        android:id="@+id/tampilForexButton">
     </Button>
     <Button
         android:layout_height="wrap_content"
@@ -24,6 +36,16 @@
         android:textColor="#fff"
         android:drawableLeft="@drawable/student"
         android:text="Master Mahasiswa"
-        android:id="@+id/tampilMahasiswa">
+        android:id="@+id/tampilMahasiswaButton">
+    </Button>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_columnWeight="1"
+        android:textColor="#fff"
+        android:drawableRight="@drawable/img_weather_lightning_128"
+        android:text="Cuaca"
+        android:id="@+id/tampilCuacaButton">
     </Button>
 </GridLayout>

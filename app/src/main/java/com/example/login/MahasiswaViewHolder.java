@@ -1,4 +1,4 @@
-package com.rinam.recyclerviewb;
+package com.example.login;
 
 import android.view.View;
 import android.widget.ImageView;

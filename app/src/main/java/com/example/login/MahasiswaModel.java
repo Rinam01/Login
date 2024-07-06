@@ -1,4 +1,4 @@
-package com.rinam.recyclerviewb;
+package com.example.login;
 
 public class MahasiswaModel
 {
